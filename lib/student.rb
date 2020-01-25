@@ -67,5 +67,5 @@ class Student
 
 
 
-  
+
 end
