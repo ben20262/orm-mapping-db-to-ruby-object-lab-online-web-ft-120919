@@ -73,7 +73,7 @@ class Student
       WHERE students.grade = 10
       LIMIT 1
     SQL
-    row = DB[:conn].execute(sql)
+    row = DB[:conn].execute(sql).first
     self.new_from_db(row)
   end
 
