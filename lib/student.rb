@@ -62,7 +62,7 @@ class Student
       LIMIT ?
     SQL
   end
-    
+
 
   def save
     sql = <<-SQL
