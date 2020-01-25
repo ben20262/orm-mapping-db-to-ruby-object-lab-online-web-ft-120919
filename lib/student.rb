@@ -62,8 +62,8 @@ class Student
 
   def self.all_students_in_grade_9
     sql = "SELECT *
-    WHERE students.grade = 9
-    GROUP BY students.name"
+    WHERE students.grade = 9"
+    DB[:conn].execute(sql)
   end
 
 
